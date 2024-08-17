@@ -1,0 +1,19 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Medical Knowledge Graph Q&A</title>
+</head>
+<body>
+    <h1>Ask a Medical Question</h1>
+    <form method="post">
+        <input type="text" name="question" required>
+        <button type="submit">Ask</button>
+    </form>
+    {% if question %}
+        <h2>Question: {{ question }}</h2>
+        <h3>Answer: {{ answer }}</h3>
+    {% endif %}
+</body>
+</html>
+    

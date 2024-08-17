@@ -1,0 +1,6 @@
+
+flask
+networkx
+transformers
+torch
+    
